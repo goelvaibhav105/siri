@@ -22,7 +22,7 @@ export default function Home() {
       <header className="flex justify-between fixed top-0 text-white w-full p-5 ">
         <Image
           alt="logo"
-          src="https://i.imgur.com/MCHWJZS.png"
+          src="https://lh3.googleusercontent.com/a/ACg8ocK5FMiIlc048fFJpnoqoV89bQ93TFLhoIvn870Ln6bMPG0_9Lo4=s540-c-no"
           height={50}
           width={50}
         />
