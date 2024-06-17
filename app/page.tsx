@@ -34,15 +34,18 @@ export default function Home() {
 
       {/* Form */}
       <form className="flex flex-col bg-black ">
+        {/* Gradient */}
         <div className="flex-1 bg-gradient-to-b from-purple-500 to-black">
           <Messages />
         </div>
 
+         {/* // hidden selector by ref and hidden button  */}
         <input type="file" hidden ref={fileRef} />
         <button type="submit" hidden  ref={submitButtonRef}/>
         <div className="fixed bottom-0 w-full overflow-hidden bg-black rounded-t-3xl ">
           {/* Recorder */}
           <Recorder />
+          {/* Voice synthesiser output of the assistant voice */}
         </div>
       </form>
     </main>
